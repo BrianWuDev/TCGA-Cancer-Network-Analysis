@@ -14,7 +14,7 @@
 
 ## 使用方法
 
-直接訪問[網頁鏈接](https://您的用戶名.github.io/您的倉庫名/)即可使用。
+直接訪問[網頁鏈接](https://brianwudev.github.io/TCGA-Cancer-Network-Analysis/)即可使用。
 
 ### 操作說明
 
