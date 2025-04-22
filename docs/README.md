@@ -1,32 +1,72 @@
-# 基因關聯網絡可視化 (Gene Association Network)
+#  Gene Association Network Visualization
 
-這是一個基於GCH1中心基因的網絡可視化工具，展示了在正常組織中與GCH1有高相關性(PCC >= 0.8)的基因。
+This repository presents an interactive web-based tool for visualizing a gene association network centered on **GCH1** in normal tissues. Genes with a high Pearson correlation coefficient (PCC ≥ 0.8) to GCH1 are displayed as nodes within a tissue-specific cluster layout.
 
-## 功能
+**🔗 Web Application**  
+Access the live visualization here:  
+👉 [https://brianwudev.github.io/TCGA-Cancer-Network-Analysis/](https://brianwudev.github.io/TCGA-Cancer-Network-Analysis/)  
+*(If the hyperlink fails, please copy and paste the above URL into your browser.)*
 
-- 互動式網絡可視化，顯示中心基因、組織節點和關聯基因
-- 相同組織的基因以雲狀分布展示
-- 拖動節點可重新排列網絡結構
-- 滑鼠滾輪可縮放網絡視圖
-- 懸停在節點上可查看詳細信息
-- 可下載高畫質PNG圖像（包含標題和圖例）
-- 自動優化布局功能
+---
 
-## 使用方法
+##  Features
 
-直接訪問[網頁鏈接](https://brianwudev.github.io/TCGA-Cancer-Network-Analysis/)即可使用。
+- **Centralized network** focused on GCH1
+- **Tissue-specific clustering** for co-expressed genes
+- **Interactive controls**:
+  - Click and drag nodes to reposition
+  - Scroll wheel to zoom in and out
+  - Drag background to pan across the network
+- **Information on hover**: View details for each node
+- **Layout optimization**: Automatically rearrange node positions
+- **High-resolution PNG export** with title and legend
 
-如果無法連結到網頁請逕行複製網址:https://brianwudev.github.io/TCGA-Cancer-Network-Analysis/
+---
 
-### 操作說明
+## 🧪 Use Case
 
-- 點擊並拖動節點以移動位置
-- 滾輪放大縮小
-- 按住鼠標拖動背景移動整個網絡
-- 將鼠標懸停在節點上查看詳細信息
-- 點擊「優化布局」按鈕重新整理節點集群
-- 點擊「下載高畫質PNG」按鈕獲取完整圖像
+This tool is designed to support biomedical researchers and bioinformaticians in:
 
-## 技術說明
+- Identifying gene co-expression patterns
+- Exploring potential regulatory or pathway interactions
+- Preparing high-quality network figures for presentations or publications
 
-此網絡可視化使用HTML Canvas實現，完全在瀏覽器中運行，無需服務器支持。 
+---
+
+## 🖥️ Instructions
+
+1. Open the web app using the link above.
+2. **Navigate** the network:
+   - Drag nodes to adjust the layout manually.
+   - Use the mouse wheel to zoom.
+   - Drag the background to move the full view.
+3. **Hover** over a node to view its identifier and correlation score.
+4. Use the **Optimize Layout** button to auto-adjust clusters.
+5. Use the **Download PNG** button to export the current view.
+
+---
+
+## 🛠️ Technical Implementation
+
+- Developed using **HTML5 Canvas API**
+- Purely client-side (no backend/server required)
+- Optimized for Chrome and modern browsers
+- Lightweight and suitable for embedding in other platforms
+
+---
+
+## 🖼️ Example Visualization
+
+> *(You may include a screenshot here using the following syntax:)*  
+> `![Screenshot](images/screenshot.png)`
+
+---
+
+## 📄 Citation & License
+
+If you use this tool in academic work, please cite the corresponding publication (link TBD).  
+Distributed under the [MIT License](LICENSE).
+
+---
+
+For questions, collaboration, or feedback, feel free to reach out via GitHub Issues or contact the author directly.
