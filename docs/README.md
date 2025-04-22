@@ -16,6 +16,8 @@
 
 直接訪問[網頁鏈接](https://brianwudev.github.io/TCGA-Cancer-Network-Analysis/)即可使用。
 
+如果無法連結到網頁請逕行複製網址:https://brianwudev.github.io/TCGA-Cancer-Network-Analysis/
+
 ### 操作說明
 
 - 點擊並拖動節點以移動位置
